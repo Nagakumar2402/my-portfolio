@@ -7,7 +7,7 @@ const Work = () => {
   //setProject(data);
 
   return (
-    <div name="work" className="w-full text-gray-300 md:h-screen ">
+    <div name="work" className="w-full mt-20 text-gray-300 md:h-screen ">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="inline text-4xl font-bold text-gray-300 border-b-4 border-pink-600">

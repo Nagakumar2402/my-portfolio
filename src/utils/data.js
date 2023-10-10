@@ -2,6 +2,7 @@ import WorkIm from "../assets/projects/workImg.jpeg";
 import RealEst from "../assets/projects/realestate.jpg";
 import zootoipa from "../assets/projects/zootopia.png";
 import drjbs from "../assets/projects/drjbs.png";
+import todo from "../assets/projects/todo.png";
 
 export const data = [
   {
@@ -21,15 +22,8 @@ export const data = [
   {
     id: 3,
     name: "React JS Application",
-    image: WorkIm,
+    image: todo,
 
-    live: "",
-  },
-  {
-    id: 4,
-    name: "React JS Application",
-    image: RealEst,
-
-    live: "",
+    live: "https://react-todos-ibas.vercel.app/",
   },
 ];
