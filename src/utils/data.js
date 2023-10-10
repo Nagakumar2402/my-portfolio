@@ -1,35 +1,35 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+import WorkIm from "../assets/projects/workImg.jpeg";
+import RealEst from "../assets/projects/realestate.jpg";
+import zootoipa from "../assets/projects/zootopia.png";
+import drjbs from "../assets/projects/drjbs.png";
 
-export const data=[
-    {
-        id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:2,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-    {
-        id:3,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:4,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
+export const data = [
+  {
+    id: 1,
+    name: "React JS Application",
+    image: zootoipa,
 
+    live: "https://nagakumar2402.github.io/my-test/",
+  },
+  {
+    id: 2,
+    name: "React JS Application",
+    image: drjbs,
 
-]
+    live: "https://dr-jbs-stage.onrender.com/",
+  },
+  {
+    id: 3,
+    name: "React JS Application",
+    image: WorkIm,
+
+    live: "",
+  },
+  {
+    id: 4,
+    name: "React JS Application",
+    image: RealEst,
+
+    live: "",
+  },
+];

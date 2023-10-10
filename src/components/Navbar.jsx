@@ -46,14 +46,16 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#A78BFA]">
-      <div className="flex items-center">
+      <div className="relative flex items-center">
         <img
           src={Logo}
           alt="Logo Image"
-          style={{ width: "100px" }}
+          style={{ width: "120px" }}
           className="block"
         />
-        <h1 className="-ml-[20px] text-lg font-bold ">Naga Kumar</h1>
+        <h1 className="absolute text-[12px] font-bold  bottom-10 -left-2">
+          Naga Kumar
+        </h1>
       </div>
 
       {/* menu */}
