@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
@@ -45,17 +38,17 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#A78BFA]">
-      <div className="relative flex items-center">
+    <div className="w-full h-24 sticky px-5 top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+      <div className="   flex items-center justify-center gap-1  cursor-pointer  ">
         <img
           src={Logo}
           alt="Logo Image"
-          style={{ width: "120px" }}
-          className="block"
+          className="block rounded-full h-10 w-10 bg-current p-1 object-cover border-spacing-1 border-red-600"
+          style={{ height: "50px", width: "50px" }}
         />
-        <h1 className="absolute text-[12px] font-bold  bottom-10 -left-2">
+        <p className="text-base font-bold  text-gray-400 hover:text-designColor duration-300  ">
           Naga Kumar
-        </h1>
+        </p>
       </div>
 
       {/* menu */}
@@ -63,7 +56,7 @@ const Navbar = () => {
         {menu.map((item) => (
           <li
             key={item.id}
-            className="flex transition-all duration-200 hover:text-white translate "
+            className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300 "
           >
             <Link
               to={item.link}

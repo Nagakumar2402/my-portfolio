@@ -6,11 +6,20 @@ export default {
       fontFamily: {
         sans: ["Open Sans", "sans-serif"],
         Lato: ["Lato", "serif"],
+        bodyFont: ["Poppins", "sans-serif"],
+        titleFont: ["Montserrat", "sans-serif"],
         Oswald: ["Oswald", "monospace"],
-
+      },
+      colors: {
+        bodyColor: "#212428",
+        lightText: "#c4cfde",
+        boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
+        designColor: "#ff014f",
+      },
+      boxShadow: {
+        shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
       },
     },
   },
   plugins: [],
 };
-
